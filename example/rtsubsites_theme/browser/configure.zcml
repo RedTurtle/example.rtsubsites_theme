@@ -1,0 +1,30 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="example.rtsubsites_theme">
+
+  <!-- 'Example theme for redturtle.subsites' Zope 3 browser layer -->
+  <interface
+      interface=".interfaces.IThemeSpecific"
+      type="zope.publisher.interfaces.browser.IBrowserSkinType"
+      name="Example theme for redturtle.subsites"
+      />
+  
+  <!-- Viewlets registration -->
+  <!-- Zope 3 browser resources -->
+
+  <!-- Resource directory for images -->
+  <browser:resourceDirectory
+      name="example.rtsubsites_theme.images"
+      directory="images"
+      layer=".interfaces.IThemeSpecific"
+      />
+
+  <!-- Resource directory for stylesheets -->
+  <browser:resourceDirectory
+      name="example.rtsubsites_theme.stylesheets"
+      directory="stylesheets"
+      layer=".interfaces.IThemeSpecific"
+      />
+
+</configure>

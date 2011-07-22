@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<object name="portal_skins" allow_any="False" cookie_persistence="False"
+   request_varname="http_plone_skin">
+
+ <object name="example_rtsubsites_theme_custom_images"
+    meta_type="Filesystem Directory View"
+    directory="example.rtsubsites_theme:skins/example_rtsubsites_theme_custom_images"/>
+ <object name="example_rtsubsites_theme_custom_templates"
+    meta_type="Filesystem Directory View"
+    directory="example.rtsubsites_theme:skins/example_rtsubsites_theme_custom_templates"/>
+ <object name="example_rtsubsites_theme_styles"
+    meta_type="Filesystem Directory View"
+    directory="example.rtsubsites_theme:skins/example_rtsubsites_theme_styles"/>
+
+ <skin-path name="redturtle.subsites example theme" based-on="Plone Classic Theme">
+  <layer name="example_rtsubsites_theme_custom_images"
+     insert-after="custom"/>
+  <layer name="example_rtsubsites_theme_custom_templates"
+     insert-after="example_rtsubsites_theme_custom_images"/>
+  <layer name="example_rtsubsites_theme_styles"
+     insert-after="example_rtsubsites_theme_custom_templates"/>
+ </skin-path>
+
+</object>
