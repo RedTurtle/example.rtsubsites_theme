@@ -1,2 +1,5 @@
 /* Stylesheet for the 'Example theme for redturtle.subsites' Plone theme */
 
+body {
+	background-color: #c0c0c0;
+}
