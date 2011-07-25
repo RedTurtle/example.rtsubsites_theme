@@ -12,7 +12,7 @@
     meta_type="Filesystem Directory View"
     directory="example.rtsubsites_theme:skins/example_rtsubsites_theme_styles"/>
 
- <skin-path name="redturtle.subsites example theme" based-on="Plone Classic Theme">
+ <skin-path name="Example Theme for redturtle.subsites" based-on="Sunburst Theme">
   <layer name="example_rtsubsites_theme_custom_images"
      insert-after="custom"/>
   <layer name="example_rtsubsites_theme_custom_templates"

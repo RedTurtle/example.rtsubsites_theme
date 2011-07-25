@@ -7,7 +7,7 @@
   <interface
       interface=".interfaces.IThemeSpecific"
       type="zope.publisher.interfaces.browser.IBrowserSkinType"
-      name="Example theme for redturtle.subsites"
+      name="Example Theme for redturtle.subsites"
       />
   
   <!-- Viewlets registration -->
@@ -15,8 +15,8 @@
 
   <!-- Resource directory for images -->
   <browser:resourceDirectory
-      name="example.rtsubsites_theme.images"
-      directory="images"
+      name="example.rtsubsites_theme.javascripts"
+      directory="javascripts"
       layer=".interfaces.IThemeSpecific"
       />
 
