@@ -6,7 +6,7 @@ Introduction
 This is only an example Plone theme, to be used for testing in a simple way all the
 `redturtle.subsites`__ features.
 
-__ http://plone.org/products/redturtle.subsites
+__ http://pypi.python.org/pypi/redturtle.subsites
 
 For a complete list of the features, and for know how to configure properly Apache in front
 of Plone, refer to the documentation.
