@@ -13,7 +13,7 @@
 
   <genericsetup:registerProfile
       name="uninstall"
-      title="Example Theme for redturtle.subsites Uninstall Profile"
+      title="Example Theme for redturtle.subsites: uninstall"
       directory="profiles/uninstall"
       description="Uninstall profile for Example Theme for redturtle.subsites"
       provides="Products.GenericSetup.interfaces.EXTENSION"

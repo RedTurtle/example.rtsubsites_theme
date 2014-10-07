@@ -6,8 +6,8 @@ version = '0.1.0'
 setup(name='example.rtsubsites_theme',
       version=version,
       description="An example theme that simply help understanding redturtle.subsites features",
-      long_description=open("README.txt").read() + "\n" +
-                       open(os.path.join("docs", "HISTORY.txt")).read(),
+      long_description=open("README.rst").read() + "\n" +
+                       open(os.path.join("docs", "HISTORY.rst")).read(),
       # Get more strings from
       # http://pypi.python.org/pypi?:action=list_classifiers
       classifiers=[
@@ -16,7 +16,7 @@ setup(name='example.rtsubsites_theme',
         ],
       keywords='plone theme subsite example',
       author='RedTurtle Technology',
-      author_email='sviluppoplone@redturtle.net',
+      author_email='sviluppoplone@redturtle.it',
       url='http://plone.org/products/redturtle.subsites',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),

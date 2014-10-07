@@ -97,11 +97,7 @@ Here a part of the Apache configuration file for use this theme with a subpath (
     RewriteEngine On
     
     SetEnvIf Request_URI "^/subsite(.*)" SUBSITE
-    RequestHeader append plone_skin "Example Theme for redturtle.subsites" env=SUBSITE
-    
-    RewriteRule ^/subsite(.*) \
-    "http://127.0.0.1:8080/VirtualHostBase/http/%{SERVER_NAME}:80/Plone/++skin++Example Theme for redturtle.subsites/VirtualHostRoot/subsite/$1" [L,P]
-    ProxyPassReverse /subsite http://127.0.0.1:8080/
+    RequestHeader append plone_skin "redturtle.subsites.example" env=SUBSITE
     
     RewriteRule ^/(.*) \
     "http://127.0.0.1:8080/VirtualHostBase/http/%{SERVER_NAME}:80/Plone/VirtualHostRoot/$1" [L,P]
@@ -114,6 +110,6 @@ Authors
 
 This product was developed by RedTurtle Technology team.
 
-.. image:: http://www.redturtle.net/redturtle_banner.png
+.. image:: http://www.redturtle.it/redturtle_banner.png
    :alt: RedTurtle Technology Site
-   :target: http://www.redturtle.net/
+   :target: http://www.redturtle.it/

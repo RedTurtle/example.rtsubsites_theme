@@ -3,11 +3,10 @@
     xmlns:browser="http://namespaces.zope.org/browser"
     i18n_domain="example.rtsubsites_theme">
 
-  <!-- 'Example theme for redturtle.subsites' Zope 3 browser layer -->
   <interface
       interface=".interfaces.IThemeSpecific"
       type="zope.publisher.interfaces.browser.IBrowserSkinType"
-      name="Example Theme for redturtle.subsites"
+      name="redturtle.subsites.example"
       />
   
   <!-- Viewlets registration -->

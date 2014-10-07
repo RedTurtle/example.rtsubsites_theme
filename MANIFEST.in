@@ -1,2 +1,4 @@
+include *.txt
 recursive-include example *
-global-exclude *pyc
+recursive-include docs *
+global-exclude *.pyc
